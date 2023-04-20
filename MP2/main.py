@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('resources/tray2.jpg')
+img = cv2.imread('resources/tray6.jpg')
 
 img_blur = cv2.medianBlur(img, 3)
 
@@ -17,6 +17,8 @@ low_x = min(x_coords)
 high_x = max(x_coords)
 low_y = min(y_coords)
 high_y = max(y_coords)
+
+cv2.rectangle(img, (low_x, low_y), (high_x, high_y), (255, 255, 255), 3)
 
 circles = cv2.HoughCircles(img_gray, cv2.HOUGH_GRADIENT, 1, 10, param1=100, param2=35, minRadius=20, maxRadius=40)
 
