@@ -36,6 +36,7 @@ for circle in circles[0]:
         else:
             count_inside['small'] += 1
             color = (255, 0, 0)
+        cv2.circle(img, (x, y), 3, (0, 0, 0), 4)
     else:
         if r > 31:
             count_outside['big'] += 1
