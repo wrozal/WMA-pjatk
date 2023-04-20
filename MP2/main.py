@@ -43,10 +43,17 @@ for circle in circles[0]:
             color = (255, 0, 0)
     cv2.circle(img, (x, y), r, color, 2)
 
+total_inside = count_inside['big'] * 5 + count_inside['small'] * 0.05
+total_outside = count_outside['big'] * 5 + count_outside['small'] * 0.05
+total = round(total_inside + total_outside, 2)
+
 print('Counter of 5 zl coin inside:', count_inside['big'])
 print('Counter of 5 zl coin outside:', count_outside['big'])
 print('Counter of 0.05 zl coin inside:', count_inside['small'])
 print('Counter of 0.05 zl coin outside:', count_outside['small'])
+print('Amount of money inside:', total_inside, 'zl')
+print('Amount of money outside:', total_outside, 'zl')
+print('Amount of all the money:', total, 'zl')
 
 cv2.imshow('detected coins', img)
 
