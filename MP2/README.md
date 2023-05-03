@@ -1,11 +1,11 @@
-# Policz monety na tacy
+# Count the coins on the tray
 
-Na obrazach tray1.jpg . . . tray8.jpg znajdź monety 5 zł lub 5 gr.
+In the images tray1.jpg . . . tray8.jpg find coins of 5 zloty or 5 gr.
 
-Stosując transformatę Hougha znajdź możliwie dużo monet na rysunkach,  
-Znajdź krawędzie tacy,  
-Określ obszar tacy,  
-Zlicz monety na tacy i poza nią,  
-Określ sumę na tacy i poza nią.
+1. Using the Hough transform, find as many coins as possible in the images,  
+2. Find the edges of the tray,  
+3. Determine the area of the tray,  
+4. Count the coins inside and outside the tray,  
+5. Determine the sum inside and outside the tray.
 
-Dostrój działanie systemu.
+Adjust the operation of the system.
