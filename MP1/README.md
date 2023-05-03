@@ -1,9 +1,9 @@
-# Śledzenie obiektu kolorowego (czerwona piłka)
+# Tracking a colored object (red ball)
 
-Napisz program, którego zadaniem jest śledzenie kolorowego obiektu (czerwona piłka).  Na filmie  movingball.mp4  jest poruszający się obiekt. Należy określić zakres kolorów czerwonej piłki. Dla każdej klatki filmu należy:
+Write a program to track a colored object (red ball). In the movingball.mp4 video there is a moving object. You need to specify the color range of the red ball. For each frame of the video, you should:
 
-1. Zmienić format obrazu na HSV
-2. Określić piksele, które spełniają wymagania koloru (czerwony obiekt)
-3. Zastosować operacje morfologiczne celem poprawy maski (usunięcie szumów oraz wypełnienie braków)
-4. Określić środek ciężkości piłki - współrzędne jej środka
-5. Zaznaczyć na filmie środek ciężkości
+1. Change the image format to HSV  
+2. Identify the pixels that meet the color requirements (red object)  
+3. Apply morphological operations to improve the mask (remove noise and fill in gaps)  
+4. Determine the center of gravity of the ball - the coordinates of its center  
+5. Mark the center of gravity on the video  
